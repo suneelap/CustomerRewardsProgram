@@ -59,24 +59,32 @@ export const CustomerRewards = () => {
   console.log("print monthlyCustomerPointTrans", monthlyCustomerPointTrans);
 
   return (
-    <>
-      <h1>Monthly Customer Rewards</h1>
+    <div>
+      <h3>Monthly Customer Rewards</h3>
       <div>
         {Object.keys(monthlyCustomerPointTrans).map(month => {
           return (
             <>
+            <div style={{display:'flex'}}> 
               <div className="box">
                 <h3> Month: {month} </h3>
+                <hr/>
+                <table>
+                        <tr>
+                        <th>Customer Name</th>
+                        <th>Rewards</th>
+                        </tr>
                 {Object.keys(monthlyCustomerPointTrans[month]).map(
                   customerName => (
-                    <div>
-                      <div className="label">{customerName}</div>
-                      <div className="value">
-                        {monthlyCustomerPointTrans[month][customerName]}
-                      </div>
-                    </div>
+                        <tr>
+                          <td>{customerName}</td>
+                          <td>{monthlyCustomerPointTrans[month][customerName]}</td>
+                        </tr>
+                      
                   )
                 )}
+                </table>
+              </div>
               </div>
             </>
           );
@@ -90,6 +98,6 @@ export const CustomerRewards = () => {
           <div className="value">{totalCustomerPointTrans[customerName]}</div>
         </div>
       ))}
-    </>
+    </div>
   );
 };
