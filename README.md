@@ -13,9 +13,6 @@ start : npm run start
 
 output : 
 
-![image](https://user-images.githubusercontent.com/48533686/137438844-feaee91a-732b-4b88-8f05-5c53d31c616b.png)
-
-
-![image](https://user-images.githubusercontent.com/48533686/137438878-326bfa27-eb6f-4713-81f6-e5762af3a2ff.png)
+![image](https://user-images.githubusercontent.com/48533686/137560993-df4a6dd4-de63-4f5d-96d1-a7d1e738fede.png)
 
 
