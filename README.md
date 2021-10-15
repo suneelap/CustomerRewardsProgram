@@ -10,6 +10,10 @@ install: npm i
 start : npm run start
 
 output : 
-![image](https://user-images.githubusercontent.com/48533686/137438500-bdf2bf9b-1b94-44c7-a7be-c5da16cc228b.png)
 
-![image](https://user-images.githubusercontent.com/48533686/137438530-cd5189f8-dbe6-442d-ad71-cdfff3e68a13.png)
+![image](https://user-images.githubusercontent.com/48533686/137438844-feaee91a-732b-4b88-8f05-5c53d31c616b.png)
+
+
+![image](https://user-images.githubusercontent.com/48533686/137438878-326bfa27-eb6f-4713-81f6-e5762af3a2ff.png)
+
+
