@@ -6,26 +6,12 @@
   border: 1px solid gray;
   padding: 5px;
   margin: 5px;
+  width: 33vw;
 }
 
-.label {
-  padding: 5px;
-  width: 300px;
-  display: inline-block;
-}
-
-.label::after {
-  content: ":";
-}
-
-.value {
-  font-weight: bold;
-  width: 200px;
-  display: inline-block;
-}
-
-html {
-  background-color: rgb(224, 216, 216);
+.container {
+  display: flex;
+  padding: 10px;
 }
 
 h3 {
@@ -37,11 +23,26 @@ hr {
 }
 
 table th {
-  background-color: #bcdae9;
-  width: 10vw;
+  /* background-color: #bcdae9; */
+  width: 33vw;
 }
 
 table tr {
-  width: 10vw;
+  width: 33vw;
   text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th, td {
+  padding: 8px;
+}
+
+.header {
+      background-color: #5B8ACE;
+      padding: 10px;
+      color: white;
+      text-align: center;
 }
